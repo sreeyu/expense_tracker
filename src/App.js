@@ -1,4 +1,5 @@
 import Expense from "./components/Expenses/Expense";
+import AddExpense from "./components/Expense Form/AddExpense";
 
 const expenseArray = [
   {
@@ -31,6 +32,7 @@ function App() {
   
   return (
     <div className="App">
+      <AddExpense />
       <Expense items={expenseArray} />
     </div>
   );
