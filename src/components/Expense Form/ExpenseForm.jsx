@@ -53,6 +53,7 @@ function ExpenseForm(props){
         </div>
 
         <div className="new-expense__submit">
+            <button type='button' onClick={props.onCancel}>Cancel</button>
             <button type='submit'>Add Expense</button>
         </div>
         
