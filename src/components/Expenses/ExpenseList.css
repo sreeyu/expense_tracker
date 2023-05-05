@@ -1,0 +1,9 @@
+.expenselist-default {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .expenselist {
+    color: white;
+    text-align: center;
+  }

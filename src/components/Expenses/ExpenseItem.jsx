@@ -6,13 +6,15 @@ import Card from '../UI Components/Card';
 function ExpenseItem (props){
 
     return (
-        <Card className='expenseContainer'>
-            <ExpenseDate date={props.date}/>
-            <div className='expenseItem'>
-                <h2>{props.title}</h2>
-                <div className='expenseAmount'>₹{props.amount}</div>
-            </div>
-        </Card>
+        <li>
+            <Card className='expenseContainer'>
+                <ExpenseDate date={props.date}/>
+                <div className='expenseItem'>
+                    <h2>{props.title}</h2>
+                    <div className='expenseAmount'>₹{props.amount}</div>
+                </div>
+            </Card>
+        </li>
     );
 }
 
