@@ -23,3 +23,6 @@ To use the expense tracker, simply follow these steps:
 * Below the filter section, you can view a bar chart that shows the percentage of monthly expenditure for each month of the selected year.
 
 That's it! You can now use the expense tracker to manage your expenses and track your spending.
+
+## License
+The Expense Tracker is open source and available under the [MIT License](https://opensource.org/license/mit/).
